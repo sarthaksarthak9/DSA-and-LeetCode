@@ -1,4 +1,4 @@
-package practice;
+package SinglyLinkedList;
 
 public class Singlylinkedlist {
     public Node head;
