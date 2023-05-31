@@ -1,4 +1,4 @@
-package practice1;
+package CircularSinglyLikedList;
 
 public class Node {
     public int value;
