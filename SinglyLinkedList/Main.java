@@ -1,4 +1,4 @@
-package practice;
+package SinglyLinkedList;
 public class Main {
     public static void main(String[] args) {
         Singlylinkedlist stl = new Singlylinkedlist();
