@@ -1,9 +1,10 @@
-package practice1;
+package CircularSinglyLikedList;
 
 public class csll {
     public Node head;
     public Node tail;
     public int size;
+    //create circularyLinkedList
     public Node createcsll(int nodeValue) {
         head = new Node();
         Node node= new Node();
@@ -14,6 +15,7 @@ public class csll {
         size= 1;
         return head;
     }
+    //insert the value
     public void insertcsll(int nodeValue, int location){
         Node node= new Node();
         node.value= nodeValue;
@@ -43,6 +45,7 @@ public class csll {
         }
         size++;
     }
+    //transverse the list
     public void transversecsll(){
         if(head!=null){
             Node tempNode= head;
@@ -59,6 +62,7 @@ public class csll {
             System.out.println("csll doesn't exist!!");
         }
     }
+    //search the value
     public boolean searchNode(int nodeValue){
         if (head!=null){
             Node tempNode= head;
@@ -74,6 +78,7 @@ public class csll {
         System.out.println("node not found!!");
         return false;
     }
+    //delete any element
 
     public void deleteNode(int location){
         if(head!=null){
