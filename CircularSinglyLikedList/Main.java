@@ -1,4 +1,4 @@
-package practice1;
+package CircularSinglyLikedList;
 
 public class Main {
     public static void main(String[] args) {
