@@ -1,4 +1,4 @@
-package Stack;
+package StackbyArray;
 
 public class Main {
     public static void main(String[] args) {

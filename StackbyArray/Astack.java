@@ -1,4 +1,4 @@
-package Stack; //here we show all the prop of stack using array
+package StackbyArray; //here we show all the prop of stack using array
 
 public class Astack {
     int [] arr;
